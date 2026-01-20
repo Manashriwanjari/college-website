@@ -1,0 +1,89 @@
+<!-- ================= TOP BAR ================= -->
+<div class="top-bar">
+    <span>Email: 1192principal@msbte.in</span>
+    <span>📞 +91-8830059541</span>
+</div>
+
+<!-- ================= HEADER ================= -->
+<div class="header">
+    <img src="images/collegelogo.jpg" class="logo" alt="College Logo">
+
+    <div class="title">
+        <p class="trust-name">Late Shri. Laxmanji Motghare Charitable Trust, Nagpur</p>
+        <h1>Dr. Arun Motghare Polytechnic</h1>
+        <span class="subtitle">Kosra–Kondha | AICTE Approved</span>
+    </div>
+</div>
+
+<!-- ================= NAVIGATION BAR ================= -->
+<nav class="navbar">
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+
+        <!-- ABOUT ACP DROPDOWN -->
+        <li class="dropdown">
+            <a href="javascript:void(0)">About ▾</a>
+            <ul class="dropdown-menu">
+                <li><a href="institute.html">Institute</a></li>
+                <li><a href="founder-president.html">Founder President</a></li>
+                <li><a href="vision-mission.html">Vision & Mission</a></li>
+                <li><a href="infrastructure.html">Infrastructure</a></li>
+                <li><a href="annual-report.html">Annual Report</a></li>
+                <li><a href="our-management.html">Our Management</a></li>
+            </ul>
+        </li>
+
+        <!-- COURSES DROPDOWN -->
+        <li class="dropdown">
+            <a href="javascript:void(0)">Courses ▾</a>
+            <ul class="dropdown-menu">
+                <li><a href="electrical.html">Electrical Engineering</a></li>
+                <li><a href="civil.html">Civil Engineering</a></li>
+                <li><a href="mechanical.html">Mechanical Engineering</a></li>
+                <li><a href="computer.html">Computer Engineering</a></li>
+                <li><a href="syllabus.html">Syllabus</a></li>
+            </ul>
+        </li>
+
+        <!-- STUDENT SECTION DROPDOWN -->
+        <li class="dropdown">
+            <a href="javascript:void(0)">Student Section ▾</a>
+            <ul class="dropdown-menu">
+                <li><a href="student-courses.html">Courses Offered</a></li>
+                <li><a href="student-fees.html">Fee Structure</a></li>
+                <li><a href="student-brochure.html">Information Brochure</a></li>
+                <li><a href="student-scholarships.html">Scholarships & Schemes</a></li>
+                <li><a href="student-feedback.html">Student Feedback</a></li>
+                <li><a href="student-grievance.html">Grievances</a></li>
+            </ul>
+        </li>
+
+        <!-- ADMISSION DROPDOWN -->
+        <li class="dropdown">
+            <a href="javascript:void(0)">Admission ▾</a>
+            <ul class="dropdown-menu">
+                <li><a href="registration.html">Admission / Registration</a></li>
+            </ul>
+        </li>
+
+        <!-- IMPORTANT LINKS DROPDOWN -->
+        <li class="dropdown">
+            <a href="javascript:void(0)">Important Links ▾</a>
+            <ul class="dropdown-menu">
+                <li><a href="https://msbte.org.in" target="_blank">MSBTE Official</a></li>
+                <li><a href="https://msbte.org.in/SYLLABUS" target="_blank">MSBTE Syllabus / Curriculum</a></li>
+                <li><a href="https://msbte.org.in/SBP/TIME_TABLE" target="_blank">MSBTE Time Table</a></li>
+                <li><a href="https://msbte.org.in/RESULT" target="_blank">MSBTE Results</a></li>
+                <li><a href="https://msbte.org.in/HALLTICKET" target="_blank">MSBTE Hall Ticket</a></li>
+                <li><a href="https://msbte.org.in/ModelAnswerPaper" target="_blank">Model Answer Papers</a></li>
+                <li><a href="https://msbte.org.in/QuestionPaperSearch" target="_blank">Question Paper Search</a></li>
+            </ul>
+        </li>
+
+        <li><a href="faculty.html">Faculty</a></li>
+        <li><a href="RTI.html">RTI</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+

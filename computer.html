@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Computer Engineering</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- TOP BAR -->
+<div class="top-bar">
+    <span>Email: 1192principal@msbte.in</span>
+    <span>📞 +91-8830059541 </span>
+</div>
+
+<!-- HEADER -->
+<div class="header">
+  <img src="images/collegelogo.jpg" class="logo" alt="College Logo">
+
+  <div class="title">
+    <p class="trust-name">Late Shri. Laxmanji Motghare Charitable Trust, Nagpur</p>
+    <h1>Dr. Arun Motghare Polytechnic</h1>
+    <span class="subtitle">Kosra–Kondha | AICTE Approved</span>
+  </div>
+</div>
+<!-- MENU BAR -->
+<nav class="navbar">
+  <ul class="menu">
+
+    <li><a href="index.html">Home</a></li>
+
+    <!-- ABOUT ACP -->
+   <li class="dropdown">
+  <a href="javascript:void(0)">About ▾</a>
+  <ul class="dropdown-menu">
+    <li><a href="#" onclick="openInstitute()">Institute</a></li>
+    <li><a href="#" onclick="openFounder()">Founder President</a></li>
+    <li><a href="#" onclick="openVision()">Vision & Mission</a></li>
+    <li><a href="#" onclick="openInfrastructure()">Infrastructure</a></li>
+    <li><a href="#" onclick="openAnnual()">Annual Report</a></li>
+    <li><a href="#" onclick="openOurmanagement()">Our Management</a></li>
+  </ul>
+</li>
+
+    <!-- COURSES -->
+    <li class="dropdown">
+      <a href="javascript:void(0)">Courses ▾</a>
+      <ul class="dropdown-menu">
+        <li><a href="#" onclick="openElectrical()">Electrical Engineering</a></li>
+        <li><a href="#" onclick="openCivil()">Civil Engineering</a></li>
+        <li><a href="#" onclick="openMechanical()">Mechanical Engineering</a></li>
+        <li><a href="#" onclick="openComputer()">Computer Engineering</a></li>
+        <li><a href="#" onclick="openSyllabus()">Syllabus</a></li>
+      </ul>
+    </li>
+    
+    <!-- Student Section -->
+     <li class="dropdown">
+  <a href="javascript:void(0)">Student Section ▾</a>
+
+  <ul class="dropdown-menu">
+
+    <li><a href="student-courses.html">Courses Offered</a></li>
+    <li><a href="student-fees.html">Fee Structure</a></li>
+    <li><a href="student-brochure.html">Information Brochure</a></li>
+    <li><a href="student-scholarships.html">Scholarships & Schemes </a></li>
+    <li><a href="student-feedback.html">Student Feedback</a></li>
+    <li><a href="student-grievance.html">Grievances</a></li>
+
+  </ul>
+</li>
+
+
+
+<!-- ADMISSION -->
+    <li class="dropdown">
+      <a href="javascript:void(0)">Admission</a>
+      <ul class="dropdown-menu">
+        <li><a href="registration.html">Admission / Registration</a></li>
+      </ul>
+    </li>
+
+     <li class="dropdown">
+      <a href="javascript:void(0)">Important Links ▾</a>
+
+      <ul class="dropdown-menu">
+
+        <li><a href="https://msbte.org.in" target="_blank">MSBTE Official</a></li>
+        <li><a href="https://msbte.org.in/SYLLABUS" target="_blank">MSBTE Syllabus / Curriculum</a></li>
+        <li><a href="https://msbte.org.in/SBP/TIME_TABLE" target="_blank">MSBTE Time Table</a></li>
+        <li><a href="https://msbte.org.in/RESULT" target="_blank">MSBTE Results</a></li>
+        <li><a href="https://msbte.org.in/HALLTICKET" target="_blank">MSBTE Hall Ticket</a></li>
+        <li><a href="https://msbte.org.in/ModelAnswerPaper" target="_blank">Model Answer Papers</a></li>
+        <li><a href="https://msbte.org.in/QuestionPaperSearch" target="_blank">Question Paper Search</a></li>
+
+      </ul>
+    </li>
+
+    <li><a href="faculty.html">Faculty</a></li>
+    <li><a href="RTL.html">RTL</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+
+<div class="dept-banner">
+
+    <img src="images/bluebar.jpg" alt="Department Banner" class="dept-banner-img">
+
+    <div class="dept-banner-overlay">
+        <h1>COMPUTER ENGINEERING</h1>
+    </div>
+
+</div>
+
+
+<div class="container">
+
+  <div class="sidebar">
+    <ul>
+      <li class="active" onclick="showSection('about-department', this)">ℹ️ About Department</li>
+      <li onclick="showSection('staff', this)">👨‍🏫 Staff Details</li>
+      <li onclick="showSection('admission', this)">🎓 Admission Details</li>
+      <li onclick="showSection('laboratories', this)">🧪 Laboratories</li>
+      <li onclick="showSection('training', this)">🏭 Industrial Training</li>
+      <li onclick="showSection('gallery', this)">🖼 Photo Gallery</li>
+    </ul>
+  </div>
+
+  <div class="content">
+
+    <!-- About -->
+    <div id="about-department" class="section active">
+      <h2>About Department</h2>
+      <p>
+        In a diploma program, the computer department focuses on providing
+         students with a strong foundation in various aspects of computer science and engineering. The curriculum typically encompasses both theoretical knowledge and practical, hands-on experience, preparing students for diverse roles in the rapidly evolving IT industry.
+      </p>
+
+      <div class="card">
+        <div class="card-header"><span class="icon">🎯</span><h3>Key Areas of Study</h3></div>
+        <ul>
+          <li>Computer Fundamentals: Introduction to the basics of computer hardware, software, operating systems, and networking.</li>
+          <li>Programming & Software Development: Learning programming languages like C, C++, Java, and Python, along with data structures and algorithms essential for software development.</li>
+          <li>Database Management Systems (DBMS): Understanding database architecture, management, and security, including learning SQL and relational databases.</li>
+          <li>Computer Networks: Exploring network topologies, protocols (like TCP/IP), internet architecture, and network security.</li>
+          <li> Specializations: Some programs may offer elective courses in areas like Artificial Intelligence (AI), Machine Learning (ML), Cloud Computing, or Mobile Application Development. </li>
+      </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><span class="icon">👁️</span><h3>Vision</h3></div>
+        <p>To produce competent technical manpower in Computer Science Engineering for fulfilling needs of industry and society</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><span class="icon">🚀</span><h3>Mission</h3></div>
+        <ul>
+          <li>To impart need based technical education in Computer Science Engineering.</li>
+          <li>Develop programming, networking and problem-solving skills.</li>
+          <li>To modernize departmental laboratories and facilities.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><span class="icon">📘</span><h3>Program Educational Objectives (PEOs)</h3></div>
+        <ul>
+          <li>Build strong skills in programming & system development.</li>
+          <li>Adapt to emerging IT technologies & tools.</li>
+          <li>Excel in software, networking & cyber security domains.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><span class="icon">📈</span><h3>Program Outcomes (POs)</h3></div>
+        <ul>
+          <li>Design efficient software & web applications.</li>
+          <li>Analyze & solve computing problems.</li>
+          <li>Work effectively in multidisciplinary teams.</li>
+          <li>Computer software and hardware usage: Use state-of-art technologies of computer software and hardware static electrical equipment.</li>
+          <li>Computer Engineering Maintenance: Maintain state-of-the-art computer engineering systems and peripherals</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><span class="icon">🔧</span><h3>Program Specific Outcomes (PSOs)</h3></div>
+        <ul>
+          <li>Develop software solutions using modern tools.</li>
+          <li>Apply networking & database management skills.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Staff -->
+    <div id="staff" class="section">
+      <h2>Staff Details</h2>
+      <table>
+        <tr><th>Sr</th><th>Name</th><th>Designation</th><th>Qualification</th><th>Experience</th></tr>
+        <tr><td>1</td><td>Prof. P. K. Sharma</td><td>HOD</td><td>M.Tech Computer</td><td>16</td></tr>
+        <tr><td>2</td><td>Prof. R. V. Gupta</td><td>Lecturer</td><td>M.E. Computer</td><td>12</td></tr>
+        <tr><td>3</td><td>Prof. S. S. Wankhede</td><td>Lecturer</td><td>B.E. Computer</td><td>08</td></tr>
+      </table>
+    </div>
+
+    <!-- Admission -->
+    <div id="admission" class="section">
+      <h2>Admission Details</h2>
+
+      <div class="admission-cards">
+
+        <div class="admission-card" style="background-image:url('images/year1.png')">
+          <h3>1st Year</h3>
+          <a class="btn" href="pdf/comp-1st.pdf" target="_blank">View List</a>
+        </div>
+
+        <div class="admission-card" style="background-image:url('images/year2.png')">
+          <h3>2nd Year</h3>
+          <a class="btn" href="pdf/comp-2nd.pdf" target="_blank">View List</a>
+        </div>
+
+        <div class="admission-card" style="background-image:url('images/year3.png')">
+          <h3>3rd Year</h3>
+          <a class="btn" href="pdf/comp-3rd.pdf" target="_blank">View List</a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Labs -->
+    <div id="laboratories" class="section">
+      <h2>Laboratories</h2>
+
+      <table class="lab-table">
+        <tr><th>Sr</th><th>Lab</th><th>In-charge</th><th>Hours</th><th>Equipment</th></tr>
+
+        <tr>
+          <td>1</td><td>Programming Lab</td><td>Prof. Gupta</td>
+          <td>08 hrs / week</td><td>Python, Java, C++ IDEs</td>
+        </tr>
+
+        <tr>
+          <td>2</td><td>Networking Lab</td><td>Prof. Wankhede</td>
+          <td>06 hrs / week</td><td>Routers, Switches, Packet Tracer</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Training -->
+    <div id="training" class="section">
+      <h2>Industrial Training</h2>
+      <ul>
+        <li>Software Development Companies</li>
+        <li>Web & Mobile App Industries</li>
+        <li>Networking & IT Support Firms</li>
+      </ul>
+    </div>
+
+    <!-- Gallery -->
+    <div id="gallery" class="section">
+      <h2>Photo Gallery</h2>
+      <div class="gallery">
+        <img src="images/comp1.jpg">
+        <img src="images/comp2.jpg">
+        <img src="images/comp3.jpg">
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- FOOTER -->
+<!-- FOOTER START -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- About Us -->
+    <div class="footer-box">
+      <h3>About Us</h3>
+      <p>
+        Dr. Arun Motghare polytechnic Kondha-Kosra was established in 2009
+        under Late Shri. Laxmanji Motghare Charitable Trust Nagpur.
+      </p>
+    </div>
+
+    <!-- Useful Links -->
+    <div class="footer-box">
+      <h3>Usefull Links</h3>
+      <ul>
+        <li><a href="#">Admission</a></li>
+      </ul>
+    </div>
+
+    <!-- Courses -->
+    <div class="footer-box">
+      <h3>Courses</h3>
+      <ul>
+        <li>Electrical Engineering</li>
+        <li>Civil Engineering</li>
+        <li>Mechanical Engineering</li>
+         <li>Computer Engineering</li>
+      
+      </ul>
+
+
+    </div>
+
+    <!-- Contact Us -->
+    <div class="footer-box">
+      <h3>Contact Us</h3>
+      <p>📍Late Shri Laxmanji Motghare Charitable Trust, Nagpur.
+          Dr.Arun Motghare polytechnic,
+          Kondha-Kosra, Tah-Pauni, Dist-Bhandara - 441908.
+      </p>
+      <p>📞+91-8830059541 <br>
+      </p>
+      <p>✉️ 1192principal@msbte.in</p>
+    </div>
+
+  </div>
+
+  <!-- Opening Hours -->
+  <div class="opening-hours">
+    <div>Mon - Sat <span>09am - 05pm</span></div>
+    <div>Sunday <span class="closed">Closed</span></div>
+  </div>
+  
+</footer>
+<!-- FOOTER END -->
+
+
+<script src="js/script.js"></script>
+</body>
+</html>

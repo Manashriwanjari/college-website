@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mechanical Engineering</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- TOP BAR -->
+<div class="top-bar">
+    <span>Email: 1192principal@msbte.in</span>
+    <span>📞 +91-8830059541 </span>
+</div>
+
+<!-- HEADER -->
+<div class="header">
+  <img src="images/collegelogo.jpg" class="logo" alt="College Logo">
+
+  <div class="title">
+    <p class="trust-name">Late Shri. Laxmanji Motghare Charitable Trust, Nagpur</p>
+    <h1>Dr. Arun Motghare Polytechnic</h1>
+    <span class="subtitle">Kosra–Kondha | AICTE Approved</span>
+  </div>
+</div>
+<!-- MENU BAR -->
+<nav class="navbar">
+  <ul class="menu">
+
+    <li><a href="index.html">Home</a></li>
+
+    <!-- ABOUT ACP -->
+   <li class="dropdown">
+  <a href="javascript:void(0)">About ▾</a>
+  <ul class="dropdown-menu">
+    <li><a href="#" onclick="openInstitute()">Institute</a></li>
+    <li><a href="#" onclick="openFounder()">Founder President</a></li>
+    <li><a href="#" onclick="openVision()">Vision & Mission</a></li>
+    <li><a href="#" onclick="openInfrastructure()">Infrastructure</a></li>
+    <li><a href="#" onclick="openAnnual()">Annual Report</a></li>
+    <li><a href="#" onclick="openOurmanagement()">Our Management</a></li>
+  </ul>
+</li>
+
+    <!-- COURSES -->
+    <li class="dropdown">
+      <a href="javascript:void(0)">Courses ▾</a>
+      <ul class="dropdown-menu">
+        <li><a href="#" onclick="openElectrical()">Electrical Engineering</a></li>
+        <li><a href="#" onclick="openCivil()">Civil Engineering</a></li>
+        <li><a href="#" onclick="openMechanical()">Mechanical Engineering</a></li>
+        <li><a href="#" onclick="openComputer()">Computer Engineering</a></li>
+        <li><a href="#" onclick="openScienceandHumanities()">Science & Humanities</a></li>
+        <li><a href="#" onclick="openSyllabus()">Syllabus</a></li>
+      </ul>
+    </li>
+    
+    <!-- Student Section -->
+     <li class="dropdown">
+  <a href="javascript:void(0)">Student Section ▾</a>
+
+  <ul class="dropdown-menu">
+
+    <li><a href="student-courses.html">Courses Offered</a></li>
+    <li><a href="student-fees.html">Fee Structure</a></li>
+    <li><a href="student-brochure.html">Information Brochure</a></li>
+    <li><a href="student-scholarships.html">Scholarships & Schemes </a></li>
+    <li><a href="student-feedback.html">Student Feedback</a></li>
+    <li><a href="student-grievance.html">Grievances</a></li>
+
+  </ul>
+</li>
+
+
+
+<!-- ADMISSION -->
+    <li class="dropdown">
+      <a href="javascript:void(0)">Admission</a>
+      <ul class="dropdown-menu">
+        <li><a href="registration.html">Admission / Registration</a></li>
+      </ul>
+    </li>
+
+     <li class="dropdown">
+      <a href="javascript:void(0)">Important Links ▾</a>
+
+      <ul class="dropdown-menu">
+
+        <li><a href="https://msbte.org.in" target="_blank">MSBTE Official</a></li>
+        <li><a href="https://msbte.org.in/SYLLABUS" target="_blank">MSBTE Syllabus / Curriculum</a></li>
+        <li><a href="https://msbte.org.in/SBP/TIME_TABLE" target="_blank">MSBTE Time Table</a></li>
+        <li><a href="https://msbte.org.in/RESULT" target="_blank">MSBTE Results</a></li>
+        <li><a href="https://msbte.org.in/HALLTICKET" target="_blank">MSBTE Hall Ticket</a></li>
+        <li><a href="https://msbte.org.in/ModelAnswerPaper" target="_blank">Model Answer Papers</a></li>
+        <li><a href="https://msbte.org.in/QuestionPaperSearch" target="_blank">Question Paper Search</a></li>
+
+      </ul>
+    </li>
+
+    <li><a href="faculty.html">Faculty</a></li>
+    <li><a href="RTL.html">RTL</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+
+
+
+
+<div class="dept-banner">
+  <img src="images/bluebar.jpg" class="dept-banner-img">
+  <div class="dept-banner-overlay">
+    <h1>SCIENCE & HUMANITIES</h1>
+  </div>
+</div>
+
+<!-- MAIN CONTAINER -->
+<div class="container">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <ul>
+      <li class="active" onclick="showSection('about-department',this)">ℹ️ About Department</li>
+      <li onclick="showSection('staff',this)">👨‍🏫 Faculty</li>
+      <li onclick="showSection('laboratories',this)">🧪 Laboratories</li>
+      <li onclick="showSection('training',this)">📚 Language Lab</li>
+      <li onclick="showSection('gallery',this)">🖼 Gallery</li>
+    </ul>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="content">
+
+    <!-- ABOUT -->
+    <div id="about-department" class="section active">
+      <h2>About Department</h2>
+      <p>
+        The Science & Humanities Department forms the academic foundation of all
+        engineering diploma programs. It imparts knowledge in Mathematics,
+        Physics, Chemistry, and Communication Skills, enabling students to
+        develop analytical thinking, scientific temperament, and effective
+        communication abilities.
+      </p>
+
+      <div class="card">
+        <div class="card-header"><span class="icon">🎯</span><h3>Educational Objectives</h3></div>
+        <ul>
+          <li>Strong foundation in basic sciences</li>
+          <li>Develop analytical & logical thinking</li>
+          <li>Improve communication & soft skills</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><span class="icon">👁️</span><h3>Vision</h3></div>
+        <p>To support quality engineering education through strong scientific and humanistic foundations.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header"><span class="icon">🚀</span><h3>Mission</h3></div>
+        <ul>
+          <li>Impart quality education in science subjects</li>
+          <li>Promote ethical and professional values</li>
+          <li>Enhance communication skills</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- STAFF -->
+    <div id="staff" class="section">
+      <h2>Faculty Details</h2>
+      <table>
+        <tr><th>Sr</th><th>Name</th><th>Subject</th><th>Qualification</th><th>Experience</th></tr>
+        <tr><td>1</td><td>Prof. A. B. Patil</td><td>Physics</td><td>M.Sc</td><td>15</td></tr>
+        <tr><td>2</td><td>Prof. S. R. Deshmukh</td><td>Chemistry</td><td>M.Sc</td><td>10</td></tr>
+        <tr><td>3</td><td>Prof. P. M. Kale</td><td>English</td><td>M.A</td><td>8</td></tr>
+        <tr><td>4</td><td>Prof. N. T. Joshi</td><td>Mathematics</td><td>M.Sc</td><td>12</td></tr>
+      </table>
+    </div>
+
+    <!-- LABS -->
+    <div id="laboratories" class="section">
+      <h2>Laboratories</h2>
+      <table class="lab-table">
+        <tr><th>Sr</th><th>Lab Name</th><th>In-Charge</th><th>Equipment</th></tr>
+        <tr><td>1</td><td>Physics Lab</td><td>Prof. Patil</td><td>CRO, Optical Bench</td></tr>
+        <tr><td>2</td><td>Chemistry Lab</td><td>Prof. Deshmukh</td><td>pH Meter, Titration Set</td></tr>
+        <tr><td>3</td><td>Applied Science Lab</td><td>Prof. Joshi</td><td>Experimental Kits</td></tr>
+      </table>
+    </div>
+
+    <!-- LANGUAGE LAB -->
+    <div id="training" class="section">
+      <h2>English Language Laboratory</h2>
+      <ul>
+        <li>Listening & Speaking Skills</li>
+        <li>Pronunciation Practice</li>
+        <li>Group Discussions</li>
+        <li>Interview Preparation</li>
+      </ul>
+    </div>
+
+    <!-- GALLERY -->
+    <div id="gallery" class="section">
+      <h2>Photo Gallery</h2>
+      <div class="gallery">
+        <img src="images/science1.jpg">
+        <img src="images/science2.jpg">
+        <img src="images/science3.jpg">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<!-- FOOTER START -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- About Us -->
+    <div class="footer-box">
+      <h3>About Us</h3>
+      <p>
+        Dr. Arun Motghare polytechnic Kondha-Kosra was established in 2009
+        under Late Shri. Laxmanji Motghare Charitable Trust Nagpur.
+      </p>
+    </div>
+
+    <!-- Useful Links -->
+    <div class="footer-box">
+      <h3>Usefull Links</h3>
+      <ul>
+        <li><a href="#">Admission</a></li>
+      </ul>
+    </div>
+
+    <!-- Courses -->
+    <div class="footer-box">
+      <h3>Courses</h3>
+      <ul>
+        <li>Electrical Engineering</li>
+        <li>Civil Engineering</li>
+        <li>Mechanical Engineering</li>
+         <li>Computer Engineering</li>
+      
+      </ul>
+
+
+    </div>
+
+    <!-- Contact Us -->
+    <div class="footer-box">
+      <h3>Contact Us</h3>
+      <p>📍Late Shri Laxmanji Motghare Charitable Trust, Nagpur.
+          Dr.Arun Motghare polytechnic,
+          Kondha-Kosra, Tah-Pauni, Dist-Bhandara - 441908.
+      </p>
+      <p>📞+91-8830059541 <br>
+      </p>
+      <p>✉️ 1192principal@msbte.in</p>
+    </div>
+
+  </div>
+
+  <!-- Opening Hours -->
+  <div class="opening-hours">
+    <div>Mon - Sat <span>09am - 05pm</span></div>
+    <div>Sunday <span class="closed">Closed</span></div>
+  </div>
+  
+</footer>
+<!-- FOOTER END -->
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
